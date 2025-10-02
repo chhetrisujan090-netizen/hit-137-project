@@ -103,6 +103,7 @@ class AIGUI(tk.Tk):
         self.output_display.delete(1.0, tk.END)
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     app = AIGUI()
     app.mainloop()
+
